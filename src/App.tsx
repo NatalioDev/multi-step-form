@@ -362,7 +362,7 @@ function App() {
             </div>
           </div>
           {/* Contenido principal del formulario. */}
-          <div className="flex justify-between flex-grow flex-shrink lg:px-0 mx-12 md:flex-col md:justify-between absolute top-40 max-w-[350px] md:static mb-10 rounded-2xl pt-10 pb-16 bg-white md:px-0 md:py-5 md:mx-28 md:w-100 md:my-2">
+          <div className="flex justify-between flex-grow flex-shrink lg:px-0 mx-12 md:flex-col md:justify-between absolute top-[95px] max-w-[350px] md:static mb-10 rounded-2xl pt-10 pb-16 bg-white md:px-0 md:py-5 md:mx-28 md:w-100 md:my-2">
             {/* Muestra el componente correspondiente a cada etapa actual. */}
             {( displayThankyou && (
               <>
