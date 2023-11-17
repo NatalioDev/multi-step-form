@@ -81,7 +81,7 @@ export default function Plan({
             Please select a plan.
         </div>
         {/* Definimos la información de los planes. */}
-        <div className="font-medium -mb-5 md:mt-8 md:mb-0 bg-[#fafbff] text-[#02295a] p-2 rounded-xl">
+        <div className="font-medium -mb-5 -mt-[25px] md:mt-8 md:mb-0 bg-[#fafbff] text-[#02295a] p-2 rounded-xl">
             <div className="flex justify-center items-center space-x-5 text-[14px]">
                 <div>Monthly</div>
                 <div className="scale-75">
