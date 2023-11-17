@@ -412,7 +412,7 @@ function App() {
               </>
             )}
             {/* Contiene la parte de los botones del formulario */}
-            <div className="flex justify-between fixed  px-16 bottom-0 left-0 w-screen md:w-full bg-white p-5 md:static md:p-0 items-center lg:items-end">
+            <div className="flex justify-between fixed px-16 bottom-0 pt-2 left-0 w-screen md:w-full bg-white p-5 md:static md:p-0 items-center lg:items-end">
               <div
                   onClick={prevStep}
                   className={`font-medium lg:mb-3 md:mt-4 text-[#9699ab] select-none cursor-pointer transition duration-100 hover:text-[#02295a] ${goBackVisible}`}
