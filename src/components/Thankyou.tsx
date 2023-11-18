@@ -2,7 +2,7 @@ import ThankyouIcon from "../../public/assets/images/icon-thank-you.svg";
 
 export default function Thankyou() {
   return (
-    <div className="flex flex-col justify-center items-center space-y-5 text-center mt-28">
+    <div className="flex flex-col justify-center items-center space-y-5 text-center mt-5">
         <div>
             <img src={ThankyouIcon} alt="Thank you Icon" />
         </div>
