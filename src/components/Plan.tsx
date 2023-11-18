@@ -61,7 +61,7 @@ export default function Plan({
             desc="You have the option of monthly or yearly billing."
         />
         {/* Mostramos las opciones de los planes que podra seleccionar el usuario. */}
-        <div className="grid gap-4 px-3 md:grid-cols-3 md:grid-rows-1">
+        <div className="grid gap-4 px-3 -mt-[15px] md:grid-cols-3 md:grid-rows-1">
             {/* Mapeamos los datos de los planes a mostrar y se lo pasamos al componente OptionPlan para que los muestre. */}
             {planOptions.map(({id, logo, title, price, selected}: Plan) => (
                 <OptionPlan
@@ -81,7 +81,7 @@ export default function Plan({
             Please select a plan.
         </div>
         {/* Definimos la información de los planes. */}
-        <div className="font-medium -mb-5 -mt-[25px] md:mt-8 md:mb-0 bg-[#fafbff] text-[#02295a] p-2 rounded-xl">
+        <div className="font-medium -mb-[40px] -mt-[25px] md:mt-8 md:mb-0 bg-[#fafbff] text-[#02295a] p-2 rounded-xl">
             <div className="flex justify-center items-center space-x-5 text-[14px]">
                 <div>Monthly</div>
                 <div className="scale-75">
